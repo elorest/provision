@@ -8,6 +8,6 @@ RUN ln -sf /usr/local/share/amber_cmd-$AMBER_VERSION/bin/amber /usr/local/bin/am
 
 WORKDIR /app/user
 
-ADD . /app/user
+ADD ../../ /app/user
 
 RUN crystal deps
