@@ -6,3 +6,5 @@ a class="nav-item #{active}" href="/posts" Posts
 a class="nav-item #{active}" href="/cats" Cats
 - active = context.request.path == "/birds" ? "active" : ""
 a class="nav-item #{active}" href="/birds" Birds
+- active = context.request.path == "/dogs" ? "active" : ""
+a class="nav-item #{active}" href="/dogs" Dogs

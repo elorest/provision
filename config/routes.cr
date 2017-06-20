@@ -22,6 +22,7 @@ Amber::Server.instance.config do |app|
   end
 
   routes :web do
+    resources "/dogs", DogController
     resources "/birds", BirdController
     resources "/cats", CatController
     resources "/posts", PostController
